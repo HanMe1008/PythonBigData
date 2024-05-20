@@ -224,6 +224,7 @@ fruits_dic = {'apple' : 5000, 'banana' : 4000, 'grape' : 5300, 'melon' : 6500}
 for fruit in fruits_dic:
     print("{0}의 가격은 {1}입니다.".format(fruit, fruits_dic[fruit]))
 """
+"""
 class Student:
     def __init__(self,name,student_id):
         self.name = name
@@ -281,3 +282,17 @@ student.get_total_score()
 student.get_avg_score()
                      
 print(student)
+"""
+"""
+import numpy as np
+A = np.array([2, 3, 3, 2])
+B = A.reshape(2, 2)
+print(B)
+print(np.linalg.inv(B))
+"""
+
+
+
+
+
+

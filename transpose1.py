@@ -7,5 +7,6 @@ C = A.reshape(1, 6)     # 1x6 matrix
 D = C.T
 
 print("A.shape ==", A.shape, ", B.shape ==", B.shape)
+print(B)
 print("C.shape ==", C.shape, ", D.shape ==", D.shape)
 print(D)

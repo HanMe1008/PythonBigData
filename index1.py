@@ -10,3 +10,4 @@ idx = [1, 2, 0, 3]
 # what_i_want = A[ [1, 2, 0, 3], : ]
 result = A[idx, :]
 print(result)
+
