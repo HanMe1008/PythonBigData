@@ -9,4 +9,5 @@ df.columns = [list('ABC'), list('DEF')]
 print(df)
 #df = pd.melt(df, col_level=0, id_vars=['A'], value_vars=['B'])
 df = pd.melt(df, id_vars=[('A', 'D')], value_vars=[('B', 'E')])
+
 print(df)
